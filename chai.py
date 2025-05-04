@@ -1,3 +1,3 @@
-from hello_chai import chai
-
-chai ("ginger tea")
+data = {'first' : 'seraj', 'second' : 'sonu', 'third' : 'danish'}
+print(data)
+ 
