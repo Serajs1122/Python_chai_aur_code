@@ -10,3 +10,5 @@
 - Set : set('abc'), {'a', 'b' 'c'}
 
 - file : open('eggs.txt'), open(r'c:ham.bin', 'wb')
+
+notes
