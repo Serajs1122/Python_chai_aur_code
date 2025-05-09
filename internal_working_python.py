@@ -11,8 +11,29 @@ m =  [1,2,3]  # isme m ka reference alag h isliye m = n dono same nhi h or dono 
 n[0] = 5
 print(n)
 print(m)
-print(n == m)  # == data check krta h agar dono equal h to true value dega
-print(n is m)  # is Value check krta h agar dono equal h to true value dega
+print(n == m)  # == value check krta h agar dono equal h to true value dega
+print(n is m)  # is object check krta h agar dono equal h to true value dega
+'''
+ex:-== means "Are the values same?"
+It checks what is inside the variables.
+
+a = [1, 2, 3]
+b = [1, 2, 3]
+print(a == b)  # True – because both have same values
+
+is means "Are they the same object?"
+It checks if both are pointing to the same place in memory.
+
+Example:
+a = [1, 2, 3]
+b = [1, 2, 3]
+print(a is b)  # False – because they are two different objects
+
+
+But if you do:
+a = b
+print(a is b)  # True – because now both are the same object
+'''
 
 
 '''h1 ka value [1,2,3] h or h2 ka value [1,2,3] thk h 

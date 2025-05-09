@@ -72,8 +72,8 @@ Would you like a small Python code example demonstrating the difference?
 [100, 2, 3]
 >>> h2     
 [100, 2, 3]
->>> h1 == h2   // == comparison krta h 
+>>> h1 == h2   // == dono ka same value hona chahiye 
 True
->>> h1 is h2   // is keyword reference check krta h 
+>>> h1 is h2   // is dono same object hona chahiye
 False
 >>>  
